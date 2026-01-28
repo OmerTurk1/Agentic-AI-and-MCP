@@ -13,7 +13,7 @@ This agent:
 ---
 
 ## 📁 Proje Yapısı
-'''bash
+```bash
 MCP_Project/
 │
 ├── main.py                 # Agent loop (MCP flow)
@@ -28,7 +28,7 @@ MCP_Project/
 │
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-'''
+```
 
 ---
 
