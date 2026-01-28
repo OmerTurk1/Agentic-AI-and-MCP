@@ -31,4 +31,10 @@ MCP_Project/
 ## 🧩 MCP Architecture (Overview)
 
 🔐 The model never accesses the file system directly.
-All permissions and execution are controlled by the MCP server (Python).
+All permissions and execution are controlled by the MCP server.
+
+## Features of MCP Server
+
+- add file: using add_file schema, Agent can add files in mcp_workspace folder.
+- read file: using read_file schema, Agent can read files in mcp_workspace folder.
+- delete file: using delete_file schema, Agent can delete files in mcp_workspace folder.
