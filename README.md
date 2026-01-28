@@ -10,8 +10,6 @@ This agent:
 - Implements an MCP-compliant agent loop
 - Follows a sandbox (isolated file system) approach
 
----
-
 ## 📁 Project Structure
 ```bash
 MCP_Project/
@@ -30,11 +28,7 @@ MCP_Project/
 └── README.md               # Project documentation
 ```
 
----
-
 ## 🧩 MCP Architecture (Overview)
 
 🔐 The model never accesses the file system directly.
 All permissions and execution are controlled by the MCP server (Python).
-
----
