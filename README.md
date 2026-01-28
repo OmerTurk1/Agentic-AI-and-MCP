@@ -12,7 +12,7 @@ This agent:
 
 ---
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 ```bash
 MCP_Project/
 │
