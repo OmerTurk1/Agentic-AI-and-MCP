@@ -3,10 +3,10 @@ from client import send_to_model
 from tool_registry import TOOL_REGISTRY
 
 messages = [
-    {"role": "system", "content": "Sen bir MCP agent'sın. Gerekirse tool kullan."}
+    {"role": "system", "content": "You are an MCP Agent. If necessary, use tool."}
 ]
 
-print("MCP Agent hazır. Çıkmak için Ctrl+C")
+print("MCP Agent is ready. Press Ctrl+C to exit")
 
 while True:
     user_input = input(">>> ")
