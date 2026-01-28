@@ -1,4 +1,4 @@
-#🧠 Python MCP (Model Context Protocol) Agent
+# 🧠 Python MCP (Model Context Protocol) Agent
 
 This project is an example of a Python-based MCP (Model Context Protocol) agent.
 The goal is to enable an LLM (OpenAI) to use computer resources in a controlled and secure way
