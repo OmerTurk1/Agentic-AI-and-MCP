@@ -1,52 +1,40 @@
-# 🧠 Python MCP (Model Context Protocol) Agent
+#🧠 Python MCP (Model Context Protocol) Agent
 
-Bu proje, **Python tabanlı bir MCP (Model Context Protocol) agent** örneğidir.  
-Amaç, bir LLM’in (OpenAI) **kontrollü ve güvenli şekilde** bilgisayar kaynaklarını
-(tool'lar aracılığıyla) kullanabilmesini sağlamaktır.
+This project is an example of a Python-based MCP (Model Context Protocol) agent.
+The goal is to enable an LLM (OpenAI) to use computer resources in a controlled and secure way
+through tools.
 
-Bu agent:
-- Tool calling kullanır
-- Dosya oluşturabilir
-- MCP uyumlu agent loop içerir
-- Sandbox (izole dosya alanı) mantığına sahiptir
+This agent:
+- Uses tool calling
+- Can create files
+- Implements an MCP-compliant agent loop
+- Follows a sandbox (isolated file system) approach
 
 ---
 
 ## 📁 Proje Yapısı
-
+'''bash
 MCP_Project/
 │
-├── main.py                 # Agent loop (MCP akışı)
+├── main.py                 # Agent loop (MCP flow)
 ├── client.py               # OpenAI API adapter
-├── tools.py                # Gerçek sistem işlemleri
-├── tool_registry.py        # Tool → function eşleştirme
-├── schemas.py              # Tool JSON schema'ları
-├── config.py               # Ayarlar & güvenlik
+├── tools.py                # Real system operations
+├── tool_registry.py        # Tool → function mapping
+├── schemas.py              # Tool JSON schemas
+├── config.py               # Configuration & security
 │
-├── mcp_workspace/          # 🔒 Sandbox (AI erişimi)
-│   └── (oluşturulan dosyalar)
+├── mcp_workspace/          # 🔒 Sandbox (AI-accessible area)
+│   └── (generated files)
 │
-├── requirements.txt        # Python bağımlılıkları
-├── README.md               # Proje dokümantasyonu
-│
-└── .gitignore              # (önerilir)
-
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+'''
 
 ---
 
-## 🧩 MCP Mimarisi (Özet)
+## 🧩 MCP Architecture (Overview)
 
-
-> 🔐 Model **hiçbir zaman** doğrudan dosya sistemine erişmez.  
-> Tüm yetki MCP server (Python) tarafındadır.
+🔐 The model never accesses the file system directly.
+All permissions and execution are controlled by the MCP server (Python).
 
 ---
-
-## ⚙️ Kurulum
-
-### 1️⃣ Sanal ortam (önerilir)
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
