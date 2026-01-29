@@ -54,8 +54,44 @@ delete_file_schema = {
     }
 }
 
+list_files_schema = {
+    "type": "function",
+    "function": {
+        "name": "list_files",
+        "description": "Sandbox içindeki dosya ve klasörleri listeler",
+        "parameters": {
+            "type": "object",
+            "properties": {}
+        }
+    }
+}
+
+rename_file_schema = {
+    "type": "function",
+    "function": {
+        "name": "rename_file",
+        "description": "Sandbox içindeki bir dosya veya klasörün adını değiştirir",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "oldname": {
+                    "type": "string",
+                    "description": "Mevcut dosya veya klasör adı"
+                },
+                "newname": {
+                    "type": "string",
+                    "description": "Yeni ad"
+                }
+            },
+            "required": ["oldname", "newname"]
+        }
+    }
+}
+
 TOOLS = [
     create_file_schema,
     read_file_schema,
-    delete_file_schema
+    delete_file_schema,
+    list_files_schema,
+    rename_file_schema
 ]

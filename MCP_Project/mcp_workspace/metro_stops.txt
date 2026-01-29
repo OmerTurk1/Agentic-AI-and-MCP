@@ -1,0 +1,49 @@
+Durak Adı;Hat;İlçe
+Yenikapı;M1A, M2;Fatih
+Aksaray;M1A;Fatih
+Emniyet-Fatih;M1A;Fatih
+Topkapı-Ulubatlı;M1A;Fatih
+Bayrampaşa-Maltepe;M1A;Bayrampaşa
+Sağmalcılar;M1A;Bayrampaşa
+Kocatepe;M1A;Bayrampaşa
+Otogar;M1A;Bayrampaşa
+Terazidere;M1A;Esenler
+Davutpaşa-YTU;M1A;Esenler
+Merter;M1A;Güngören
+Zeytinburnu;M1A;Zeytinburnu
+Bakırköy-İncirli;M1A;Bakırköy
+Bahçelievler;M1A;Bahçelievler
+Ataköy-Şirinevler;M1A;Bahçelievler
+Yenibosna;M1A;Bahçelievler
+DTM-İstanbul Fuar Merkezi;M1A;Bakırköy
+Atatürk Havalimanı;M1A;Bakırköy
+
+Yenikapı;M2;Fatih
+Haliç;M2;Fatih
+Şişhane;M2;Beyoğlu
+Taksim;M2;Beyoğlu
+Osmanbey;M2;Şişli
+Şişli-Mecidiyeköy;M2;Şişli
+Gayrettepe;M2;Beşiktaş
+Levent;M2;Beşiktaş
+4.Levent;M2;Kağıthane
+Sanayi Mahallesi;M2;Kağıthane
+Seyrantepe;M2;Sarıyer
+İTÜ-Ayazağa;M2;Sarıyer
+Atatürk Oto Sanayi;M2;Sarıyer
+Darüşşafaka;M2;Sarıyer
+Hacıosman;M2;Sarıyer
+
+Kirazlı;M3;Bağcılar
+Yeni Mahalle;M3;Bağcılar
+Mahmutbey;M3;Bağcılar
+İstoç;M3;Bağcılar
+Olimpiyat;M3;Başakşehir
+Ziya Gökalp Mahallesi;M3;Başakşehir
+İkitelli Sanayi;M3;Başakşehir
+Başak Konutları;M3;Başakşehir
+MetroKent;M3;Başakşehir
+Başakşehir-3. Etap;M3;Başakşehir
+Siteler;M3;Başakşehir
+Turgut Özal;M3;Başakşehir
+Başakşehir Merkez;M3;Başakşehir

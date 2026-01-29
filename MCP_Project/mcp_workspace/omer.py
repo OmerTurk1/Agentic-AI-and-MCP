@@ -1,6 +1,4 @@
-def toplama(a, b):
-    return a + b
+import random
 
-# Örnek kullanım
-sonuc = toplama(3, 5)
-print('Sonuç:', sonuc)
+random_float = random.uniform(0, 30)
+print('Random float:', random_float)
