@@ -21,7 +21,7 @@ MCP_Project/
 ├── schemas.py              # Tool JSON schemas
 ├── config.py               # Configuration & security
 │
-├── mcp_workspace/          # 🔒 Sandbox (AI-accessible area)
+├── mcp_workspace/          # Sandbox (AI-accessible area)
 │   └── (generated files)
 │
 ├── requirements.txt        # Python dependencies
