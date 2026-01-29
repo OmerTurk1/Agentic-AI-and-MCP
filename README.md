@@ -38,3 +38,5 @@ All permissions and execution are controlled by the MCP server.
 - add file: using add_file schema, Agent can add files in mcp_workspace folder.
 - read file: using read_file schema, Agent can read files in mcp_workspace folder.
 - delete file: using delete_file schema, Agent can delete files in mcp_workspace folder.
+- list files: using list_files schema, Agent can list files and folders in mcp_workspace folder.
+- rename file: using rename_file schema, Agent can rename files and folders in mcp_workspace folder.
