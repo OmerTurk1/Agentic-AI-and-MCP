@@ -1,5 +1,6 @@
 import os
 from config import BASE_DIR
+import requests
 
 def create_file(filename: str, content: str):
     path = os.path.abspath(os.path.join(BASE_DIR, filename))

@@ -2,7 +2,7 @@ create_file_schema = {
     "type": "function",
     "function": {
         "name": "create_file",
-        "description": "Güvenli klasör içinde dosya oluşturur",
+        "description": "Creates file in sandbox folder",
         "parameters": {
             "type": "object",
             "properties": {
@@ -22,7 +22,7 @@ read_file_schema = {
     "type": "function",
     "function": {
         "name": "read_file",
-        "description": "Sandbox içindeki bir dosyanın içeriğini okur",
+        "description": "Reads a file in sandbox folder",
         "parameters": {
             "type": "object",
             "properties": {
@@ -40,7 +40,7 @@ delete_file_schema = {
     "type": "function",
     "function": {
         "name": "delete_file",
-        "description": "Sandbox içindeki bir dosyayı siler",
+        "description": "Deletes a file in sandbox folder",
         "parameters": {
             "type": "object",
             "properties": {
@@ -58,7 +58,7 @@ list_files_schema = {
     "type": "function",
     "function": {
         "name": "list_files",
-        "description": "Sandbox içindeki dosya ve klasörleri listeler",
+        "description": "Lists the folders and files in sandbox folder",
         "parameters": {
             "type": "object",
             "properties": {}
@@ -70,7 +70,7 @@ rename_file_schema = {
     "type": "function",
     "function": {
         "name": "rename_file",
-        "description": "Sandbox içindeki bir dosya veya klasörün adını değiştirir",
+        "description": "Renames a file or folder in sandbox folder",
         "parameters": {
             "type": "object",
             "properties": {
